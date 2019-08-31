@@ -1,0 +1,11 @@
+.col-auto button {
+	text-align: right;
+}
+
+.btn {
+	img: url(img/trash.png);
+}
+
+.model-header h4 {
+	text-align: left;
+}

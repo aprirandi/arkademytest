@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Validasi</title>
+</head>
+<body>
+
+<script>
+	
+function validasi(){
+     
+    // Username
+
+        var number=/^[0-9]+$/;
+
+        if (username==null || username==""){
+          alert("username tidak boleh kosong !");
+          return false;
+        };
+          
+        if (username>0){
+          alert("Minimal 1 karakter Angka");
+          return false;
+        };
+
+        var string =/^[A-Z]+$/;
+        if (username>0){
+          alert("Minimal 1 Huruf Kapital");
+          return false;
+        };
+
+        var string =/^[a-z]+$/;
+        if (username>0){
+          alert("Minimal 1 Huruf Kecil");
+          return false;
+        };
+ 
+     
+// Password
+    
+        var number=/^[0-9]+$/;
+
+        if (password==null || password==""){
+          alert("password tidak boleh kosong !");
+          return false;
+        };
+          
+        if (password>0){
+          alert("Minimal 1 karakter Angka");
+          return false;
+        };
+
+        var string =/^[A-Z]+$/;
+        if (password>0){
+          alert("Minimal 1 Huruf Kapital");
+          return false;
+        };
+
+        var string =/^[a-z]+$/;
+        if (password>0){
+          alert("Minimal 1 Huruf Kecil");
+          return false;
+        };
+    
+
+
+    }
+
+</script>
+
+
+</body>
+</html>
